@@ -2,7 +2,7 @@ bill_amt = float(input("Enter total bill amount:\n"))
 #service_lvl = input("Rate service good, fair, or bad\n")
 tip_amount = 0
 split = int(input("How many ways to split the bill?\n"))
-print(split)
+#print(split)
 while tip_amount == 0:
     service_lvl = input("Rate service good, fair, or bad\n")
     if service_lvl == "good":
